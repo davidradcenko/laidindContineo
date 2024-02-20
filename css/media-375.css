@@ -1,0 +1,189 @@
+@media (max-width: 767px) and (min-width: 320px) {
+  .slider {
+    margin: 0 auto;
+    width: 326px;
+    height: 174px;
+    @media (max-width: 360px){
+      width: 288px;
+      height: 155px !important;
+    }
+   }
+   .slider-item{
+    width: 326px;
+    height: 174px;
+    @media (max-width: 360px){
+      width: 288px;
+      height: 155px !important;
+    }
+   }
+   .item1,
+   .item3{
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+   }
+   .item1 img,
+   .item3 img{
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+   }
+   .item2{
+    margin-left: -455px;
+    width: 326px !important;
+    height: 174px !important;
+    @media (max-width: 360px){
+      width: 288px !important;
+      height: 155px !important;
+    }
+  }
+  .item2 img{
+    border: 3px solid #9AE3FF;
+    margin-left: 0px;
+    width: 326px !important;
+    height: 174px !important;
+    @media (max-width: 360px){
+      width: 288px !important;
+      height: 155px !important;
+    }
+  }
+
+
+  .block-extra-title{
+    font-size: 18px;
+  }
+  .block-extra-subtitle{
+    font-size: 14px;
+  }
+  .title{
+    margin-top: 27px;
+  }
+  .title-block-buttons{
+   flex-direction: column;
+  }
+  .title-block-buttons button:last-child{
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .wallmer-button{
+    width: 100%;
+  }
+  .title p{
+    text-align: center;
+    width: 100%;
+  }
+  main {
+    padding: 0 16px;
+  }
+  .navigation {
+    margin-top: 0;
+  }
+  .wallmer {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .becoming-trusted-list li:first-child {
+    margin-top: 0;
+  }
+  .deleteword {
+    display: none;
+  }
+  .wallmer-header h1:first-child {
+    color: rgba(154, 227, 255, 1);
+    text-align: center;
+    line-height: 30px;
+  }
+  .wallmer-image-block img{
+    width: 351px;
+    height: 201px;
+    margin: 0px;
+    @media (max-width: 383px)  {
+      width: 290px;
+    }
+  }
+  .wallmer-image-module{
+    display: block;
+  }
+  .wallmer-image1{
+    display: none;
+  }
+  .wallmer-text-block{
+    margin-top: 24px;
+    width: 100%;
+  }
+  .wallmer-image-block {
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+  .wallmer-list-tails {
+    margin-top: 40px !important;
+  }
+  .wallmer-button {
+    margin-left: 0;
+    height: 40px;
+    font-size: 16px;
+  }
+  .navigation {
+    padding-top: 16px;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .logo a img {
+    width: 120px;
+    height: 24.348px;
+  }
+  .nav-icon-5 {
+    width: 24px;
+    height: 7px;
+  }
+  .nav-icon-5 span {
+    height: 0.5px;
+  }
+  footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .footer-div-company p,
+  .footer-div-contact-follow p,
+  .footer-div-contact-support p,
+  .footer-div-Legal p,
+  .footer-div-partners p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-div-company li,
+  .footer-div-contact-follow li,
+  .footer-div-contact-support li,
+  .footer-div-Legal li,
+  .footer-div-partners li {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .footer-div-contact-support {
+    margin-top: 42px;
+  }
+  .footer-div-contact-follow {
+    margin-top: 42px;
+  }
+  .footer-div-contact-follow div a img {
+    width: 24px;
+    height: 24px;
+  }
+  .copyright {
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    width: 228px;
+  }
+  .header-nav li {
+    font-size: 22px;
+  }
+}
+
+

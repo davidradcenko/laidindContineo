@@ -1,0 +1,105 @@
+@media (max-width: 1280px) {
+  .slider {
+   margin: 0 auto;
+   width: 693px;
+   height: 272px;
+  }
+  .item2{
+    width: 550px;
+    margin-left: -360px;
+    height: 272px;
+    @media (max-width: 783px){
+      margin-left: -357px;
+    }
+  }
+  .item2 img {
+    width: 503px;
+    height: 270px;
+  }
+  .item3{
+    margin-left: -409px;
+    @media (max-width: 783px){
+      margin-left: -436px;
+    }
+  }
+  .slider-buttons-div{
+    margin-top: 24px;
+  }
+  .extra-margin20{
+    margin-top: 32px !important;
+  }
+  .exrta-margin7-modile{
+    margin-top: 7px !important;
+  }
+  .block-extra-info{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .partnes{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 31px;
+    align-items: center;
+  }
+  .partnes div:nth-child(2),
+  .partnes div:nth-child(3){
+    margin-left: 20px;
+  }
+  .wallmer{
+    flex-wrap: wrap;
+  }
+  .wallmer-image-block {
+    order: 1;
+    flex-basis: 100%;
+   }
+  .wallmer-image1{
+    display: block;
+    margin:  0 auto;
+  }
+.extra-margin40{
+  margin-top: 8px;
+}
+  .title h1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .title p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+.wallmer-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .wallmer-text-block{
+    margin-top: 32px;
+    order: 2;
+    flex-basis: 100%;
+  }
+  .becoming-trusted-list{
+    display: block;
+    width: auto;
+  }
+  .becoming-trusted-list li{
+    display: block;
+  }
+  .title-block-buttons button:last-child{
+    margin-left: 40px;
+  }
+  .becoming-trusted-list li:first-child{
+    margin-top: 0px;
+  }
+  .wallmer-button{
+    margin-top: 32px;
+  }
+}
+
+
+
+
+
+ 

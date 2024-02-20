@@ -1,0 +1,222 @@
+@media (max-width: 1097px) {
+  .nav-icon-5:not(.open):hover span:nth-child(1) {
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+
+  .nav-icon-5:not(.open):hover span:nth-child(2) {
+    transform: rotate(3deg) scaleY(1.1);
+  }
+
+  .nav-icon-5:not(.open):hover span:nth-child(3) {
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+
+  .nav-icon-5.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 13px;
+  }
+
+  .nav-icon-5.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-icon-5.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 13px;
+  }
+  .burger-conteiner {
+    display: none;
+  }
+  .burger-conteiner-open {
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      180deg,
+      #2a2e65,
+      #282b59 25%,
+      #121321 75%,
+      #121321
+    );
+    z-index: 10;
+  }
+ 
+  .header-baground {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    margin-top: 0px;
+    padding-top: 17px;
+    background: #2a2e65;
+    padding-bottom: 17px;
+  }
+
+  .wallmer-header h1:first-child {
+    font-size: 30px;
+  }
+  .wallmer-header h1:last-child {
+    font-size: 20px;
+  }
+  .becoming-trusted-list li {
+    font-size: 16px;
+  }
+  .wallmer-list-tails {
+    width: 336px;
+  }
+  .wallmer-list-tails {
+    display: none;
+  }
+
+  .wallmer {
+    flex-wrap: wrap;
+  }
+  .wallmer-break-colum {
+    display: block;
+    flex-basis: 100%;
+    width: 0;
+  }
+  .main-container {
+    width: 100%;
+  }
+  
+  .header-menu {
+    height: 18px;
+    display: flex;
+    justify-content: end;
+  }
+  header {
+    justify-content: space-between;
+  }
+  .logo {
+    height: 18.8px;
+  }
+  .logo ::after {
+    background: inherit;
+  }
+  footer {
+    margin-top: 0;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .footer-div-company p,
+  .footer-div-contact-follow p,
+  .footer-div-contact-support p,
+  .footer-div-Legal p,
+  .footer-div-partners p {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .footer-div-company li,
+  .footer-div-contact-follow li,
+  .footer-div-contact-support li,
+  .footer-div-Legal li,
+  .footer-div-partners li {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .footer-nav-links {
+    flex-wrap: wrap;
+  }
+  .break-colum {
+    /* display: block; */
+    flex-basis: 100%;
+    width: 0;
+  }
+  .footer-div-contact-follow,
+  .footer-div-contact-support {
+    margin-top: 32px;
+  }
+  .copyright {
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .footer-div-contact-follow div a:last-child {
+    margin-right: 0;
+  }
+  .logo {
+    position: relative;
+  }
+  .header-menu {
+    position: relative;
+  }
+  .header-nav {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 10px;
+    border-image-slice: 0;
+  }
+  .header-nav li {
+    border: 0 !important;
+  }
+  .header-nav li:hover {
+    border: 0 !important;
+  }
+  .log-in {
+    border: 0 !important;
+  }
+  .header-nav {
+    border-bottom: 1px solid rgba(97, 100, 143, 0.8);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .header-nav li:first-child a {
+    background: inherit !important;
+    color: var(--bg-Dark-Grayscale-200);
+  }
+  .header-buttons {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .header-nav li {
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  .nav-icon-5 {
+    width: 24px;
+    height: 9.7px;
+    margin: 0 0;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .nav-icon-5 span {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 2px;
+    transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+    width: 100%;
+    height: 3px;
+    transition-duration: 0.5s;
+  }
+  .nav-icon-5 span:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  .nav-icon-5 span:nth-child(2) {
+    top: 13px;
+    left: 0;
+    opacity: 1;
+  }
+  .nav-icon-5 span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(1) {
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(2) {
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(3) {
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+}
