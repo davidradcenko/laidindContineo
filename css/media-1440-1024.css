@@ -17,9 +17,9 @@
     height: 270px;
   }
   .item3{
-    margin-left: -409px;
+    margin-left: -427px;
     @media (max-width: 783px){
-      margin-left: -436px;
+      margin-left: -447px;
     }
   }
   .slider-buttons-div{

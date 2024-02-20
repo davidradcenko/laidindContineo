@@ -659,7 +659,7 @@ header {
   display: flex;
   /* border: 1px red solid; */
   width: 789px;
-  height: 294px;
+  height: 304px;
   align-items: center;
   transition :'transform 2s ease-in-out';
   overflow: hidden;
@@ -676,9 +676,9 @@ header {
 } 
 
 .item2{
-  flex: 0 0 550px;
-  height: 294px;
-  margin-left: -331px;
+  flex: 0 0 570px;
+  height: 304px;
+  margin-left: -351px;
   z-index: 1;
   order: 2;
 }
@@ -695,7 +695,7 @@ header {
 .item3{
   flex: 0 0 455px;
   /* height: 250px; */
-  margin-left: -339px;
+  margin-left: -360px;
   order: 3;
 }
 .slider-item{

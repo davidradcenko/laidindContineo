@@ -1,16 +1,16 @@
 @media (max-width: 767px) and (min-width: 320px) {
   .slider {
     margin: 0 auto;
-    width: 326px;
-    height: 174px;
+    width: 332px;
+    height: 180px;
     @media (max-width: 360px){
       width: 288px;
       height: 155px !important;
     }
    }
    .slider-item{
-    width: 326px;
-    height: 174px;
+    width: 332px;
+    height: 180px;
     @media (max-width: 360px){
       width: 288px;
       height: 155px !important;
@@ -30,8 +30,8 @@
    }
    .item2{
     margin-left: -455px;
-    width: 326px !important;
-    height: 174px !important;
+    width: 332px !important;
+    height: 180px !important;
     @media (max-width: 360px){
       width: 288px !important;
       height: 155px !important;
@@ -40,8 +40,8 @@
   .item2 img{
     border: 3px solid #9AE3FF;
     margin-left: 0px;
-    width: 326px !important;
-    height: 174px !important;
+    width: 332px !important;
+    height: 180px !important;
     @media (max-width: 360px){
       width: 288px !important;
       height: 155px !important;
