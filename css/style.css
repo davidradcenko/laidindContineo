@@ -379,7 +379,7 @@ color: rgba(154, 227, 255, 1);
   position: absolute;
   left: -20px;
   top: -2px;
-  content: url(../img/wallmer-block/Ellipse.svg);
+  content: url("../img/wallmer-block/Ellipse.svg");
   padding-right: 12px;
 }
 .wallmer-list-tails {
